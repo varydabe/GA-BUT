@@ -1,0 +1,59 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0.333,-0.333" Background="{DynamicResource {x:Static SystemColors.MenuBrushKey}}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" MaxHeight="40"/>
+            <RowDefinition Height="40" MaxHeight="40"/>
+            <RowDefinition MaxHeight="40" Height="41.333"/>
+            <RowDefinition Height="40" MaxHeight="40"/>
+            <RowDefinition Height="40" MaxHeight="40"/>
+            <RowDefinition Height="40" MaxHeight="40"/>
+            <RowDefinition Height="40" MaxHeight="40"/>
+            <RowDefinition Height="40" MaxHeight="40"/>
+            <RowDefinition Height="40" MaxHeight="40"/>
+            <RowDefinition Height="40" MaxHeight="40"/>
+
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+            <ColumnDefinition Width="40" MaxWidth="40"/>
+
+        </Grid.ColumnDefinitions>
+        <Rectangle Grid.ColumnSpan="9" HorizontalAlignment="Left" Height="425" Margin="-7,-4,0,-7.667" Grid.RowSpan="10" Stroke="Black" VerticalAlignment="Top" Width="338" Fill="#FF41BFDA" StrokeThickness="0"/>
+        <Rectangle Grid.ColumnSpan="11" Grid.Column="8" Fill="#FFEDF6F3" HorizontalAlignment="Left" Height="421" Margin="0.333,0,-7.667,-7.667" Grid.RowSpan="10" Stroke="Black" VerticalAlignment="Top" Width="462" StrokeThickness="0"/>
+        <Label Content="Welcome to&#xD;&#xA;Ga-But!" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="9" Height="104" Grid.RowSpan="3" Width="341" FontSize="36" FontFamily="Mosk 800" Margin="16,1.667,0,0" Foreground="#FFEDF6F3" Grid.Row="1"/>
+        <Label Content="Create Account" Grid.Column="10" HorizontalAlignment="Left" Margin="17.667,39,0,0" VerticalAlignment="Top" Grid.ColumnSpan="8" Width="279" Height="52" Grid.RowSpan="3" FontSize="36" FontFamily="Mosk 600" Background="#FFEDF6F3" Foreground="#FF41BFDA"/>
+        <TextBox Grid.ColumnSpan="10" Grid.Column="9" HorizontalAlignment="Left" Height="41" Grid.Row="3" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="372" Foreground="#FFABADB3" BorderBrush="#FFABADB3" FontFamily="Mosk 300" FontSize="18" TextChanged="TextBox_TextChanged" Margin="1,0,0,0"/>
+        <TextBox Grid.ColumnSpan="10" Grid.Column="9" HorizontalAlignment="Left" Height="41" Grid.Row="4" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="372" Foreground="#FFABADB3" BorderBrush="#FFABADB3" FontFamily="Mosk 300" FontSize="18" TextChanged="TextBox_TextChanged" Margin="1,20.667,0,0" Grid.RowSpan="2"/>
+        <TextBox Grid.ColumnSpan="10" Grid.Column="9" HorizontalAlignment="Left" Height="41" Grid.Row="6" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="372" Foreground="#FFABADB3" BorderBrush="#FFABADB3" FontFamily="Mosk 300" FontSize="18" TextChanged="TextBox_TextChanged" Margin="1,0,0,0"/>
+        <Button Grid.ColumnSpan="5" Content="Sign Up" Grid.Column="11" HorizontalAlignment="Left" Margin="26.333,0.333,0,0" Grid.Row="8" VerticalAlignment="Top" Width="155" Height="47" Grid.RowSpan="2" BorderThickness="0" FontFamily="Mosk 600" FontSize="20" Foreground="#FFEDF6F3" Background="#FF41BFDA"/>
+        <Border CornerRadius="25" BorderBrush="#FFEDF6F3" BorderThickness="4" Grid.ColumnSpan="4" Grid.Column="2" HorizontalAlignment="Left" Height="59" Margin="20.333,33.333,0,0" Grid.Row="5" Grid.RowSpan="3" VerticalAlignment="Top" Width="124">
+            <Button Content="Sign In" Margin="8.667,8.667,9.667,9" BorderBrush="#FF41BFDA" Background="#FF41BFDA" Foreground="#FFEDF6F3" FontFamily="Mosk 600" FontSize="20"/>
+        </Border>
+        <Border CornerRadius="90" BorderThickness="1" HorizontalAlignment="Left" Height="116" Margin="-56,10.333,0,-43.667" Grid.Row="8" VerticalAlignment="Top" Width="129" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="#FF157185" Opacity="0.3"/>
+    </Grid>
+</Window>
